@@ -1,8 +1,8 @@
 Source: mstardict
 Priority: optional
 Section: user/utilities
-Maintainer: Roman Moravcik <roman.moravcik@gmail.com>
-Build-Depends: debhelper (>= 5.0.0), gettext, libhildon1-dev, libosso-dev, libgtk2.0-dev, libglib2.0-dev, libsigc++-2.0-dev, zlib1g-dev, maemo-optify, libgconf2-dev, libespeak-dev
+Maintainer: Norayr Chilingarian <norayr@arnet.am>
+Build-Depends: gnulib, intltool, debhelper (>= 5.0.0), gettext, libhildon1-dev, libosso-dev, libgtk2.0-dev, libglib2.0-dev, libsigc++-2.0-dev, zlib1g-dev, libgconf2-dev, libespeak-dev
 Standards-Version: 3.8.3
 Homepage: http://mstardict.garage.maemo.org/
 Vcs-Browser: https://garage.maemo.org/plugins/ggit/browse.php/?p=mstardict

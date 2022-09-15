@@ -15,4 +15,4 @@ stardict_html_parsedata_la_LDFLAGS = 	-avoid-version \
 					-module \
 					$(LD_VERSION_SCRIPT_OPTION)
 
-INCLUDES = @LIB_STARDICT_CFLAGS@ -I$(top_builddir)/src
+AM_CPPFLAGS = @LIB_STARDICT_CFLAGS@ -I$(top_builddir)/src

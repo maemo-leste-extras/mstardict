@@ -31,4 +31,4 @@ libstardict_a_SOURCES = \
 	getuint32.h	\
 	stardict_libconfig.h
 
-INCLUDES = @LIB_STARDICT_CFLAGS@
+AM_CPPFLAGS = @LIB_STARDICT_CFLAGS@

@@ -22,7 +22,7 @@ endif
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
-
+	cp /usr/share/gnulib/build-aux/config.rpath .
 	./autogen.sh
 	./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr --disable-static
 
@@ -69,7 +69,6 @@ binary-arch: build install
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
-	maemo-optify
 	dh_md5sums
 	dh_builddeb
 

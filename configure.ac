@@ -34,7 +34,7 @@ AC_FUNC_MMAP
 
 AC_CHECK_LIB(z,zlibVersion,LIBS="$LIBS -lz",[AC_MSG_ERROR([zlib not found])])
 
-PKG_CHECK_MODULES(MSTARDICT, glib-2.0 >= 2.6.1 hildon-1 gconf-2.0 >= 2.6.2 libosso)
+PKG_CHECK_MODULES(MSTARDICT, glib-2.0 >= 2.6.1 gmodule-2.0 hildon-1 gconf-2.0 >= 2.6.2 libosso)
 
 MSTARDICT_CFLAGS="-Wall $MSTARDICT_CFLAGS"
 
@@ -48,7 +48,7 @@ MSTARDICT_LIBS="$MSTARDICT_LIBS -lespeak"
 ])
 
 dnl fill cflags for libstardict
-PKG_CHECK_MODULES(LIB_STARDICT, glib-2.0 >= 2.6.1 gtk+-2.0 >= 2.12 sigc++-2.0)
+PKG_CHECK_MODULES(LIB_STARDICT, glib-2.0 >= 2.6.1 gmodule-2.0 gtk+-2.0 >= 2.12 sigc++-2.0)
 AC_SUBST(LIB_STARDICT_CFLAGS)
 
 AC_OUTPUT([
