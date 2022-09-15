@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyleft (Ɔ) 2010, Alexey Gavrilov
+# This file is distributed under the same license as the MStardict package.
+# Alexey Gavrilov <tehhez@gmail.com>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mstardict\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-14 12:56+0100\n"
+"PO-Revision-Date: 2010-08-02 02:02+0400\n"
+"Last-Translator: Alexey Gavrilov <tehhez@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/dictmngr.cpp:98 ../src/mstardict.cpp:473
+msgid "Dictionaries"
+msgstr "Словари"
+
+#: ../src/libwrapper.cpp:126
+msgid "XDXF data parsing plug-in is not found!"
+msgstr "Не найден плагин анализа данных XDXF!"
+
+#: ../src/libwrapper.cpp:131
+msgid "PowerWord data parsing plug-in is not found!"
+msgstr "Не найден плагин анализа данных PowerWord!"
+
+#: ../src/libwrapper.cpp:136
+msgid "Wiki data parsing plug-in is not found!"
+msgstr "Не найден плагин анализа данных Wiki!"
+
+#: ../src/libwrapper.cpp:141
+msgid "HTML data parsing plug-in is not found!"
+msgstr "Не найден плагин анализа данных HTML!"
+
+#: ../src/libwrapper.cpp:146
+msgid "WordNet data parsing plug-in is not found!"
+msgstr "Не найден плагин анализа данных WordNet!"
+
+#: ../src/libwrapper.cpp:192
+msgid "<span foreground=\"red\">[Load image error!]</span>"
+msgstr "<span foreground=\\\"red\\\">[Ошибка загрузки изображения!]</span>"
+
+#: ../src/libwrapper.cpp:196
+msgid "<span foreground=\"red\">[Missing Image]</span>"
+msgstr "<span foreground=\\\"red\\\">[Изображение отсутствует]</span>"
+
+#: ../src/libwrapper.cpp:210
+msgid "Unknown data type"
+msgstr "Неизвестный тип данных"
+
+#: ../src/mstardict.cpp:319
+msgid "Searching"
+msgstr "Поиск"
+
+#: ../src/mstardict.cpp:321
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../src/mstardict.cpp:355
+msgid "MStardict"
+msgstr "MStardict"
+
+#. no_search_result label
+#: ../src/mstardict.cpp:372 ../src/mstardict.cpp:568
+msgid "No search result"
+msgstr "No search result"
+
+#: ../src/mstardict.cpp:479
+msgid "Download dictionaries"
+msgstr "Скачать словари"
+
+#: ../src/mstardict.cpp:485 ../src/prefsdlg.cpp:66
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../src/mstardict.cpp:491
+msgid "Quit"
+msgstr "Выход"
+
+#: ../src/mstardict.cpp:581
+msgid "No loaded dictionary"
+msgstr "Нет загруженных словарей"
+
+#: ../src/transwin.cpp:123
+msgid "Translation"
+msgstr "Паревод"
+
+#: ../src/transwin.cpp:167
+msgid "Say"
+msgstr "Сказать"
+
+#: ../src/tts.cpp:66
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#: ../src/tts.cpp:67
+msgid "Bosnian"
+msgstr "Боснийский"
+
+#: ../src/tts.cpp:68
+msgid "Catalan"
+msgstr "Каталанский"
+
+#: ../src/tts.cpp:69
+msgid "Czech"
+msgstr "Чешский"
+
+#: ../src/tts.cpp:70
+msgid "Welsh"
+msgstr "Валлийский"
+
+#: ../src/tts.cpp:71
+msgid "Danish"
+msgstr "Датский"
+
+#: ../src/tts.cpp:72
+msgid "German"
+msgstr "Немецкий"
+
+#: ../src/tts.cpp:73
+msgid "Greek"
+msgstr "Греческий"
+
+#: ../src/tts.cpp:74
+msgid "English (Scottish)"
+msgstr "Английский (шотландский)"
+
+#: ../src/tts.cpp:75
+msgid "English"
+msgstr "Английский"
+
+#: ../src/tts.cpp:76
+msgid "English (Lancashire)"
+msgstr "Английский (Ланкашир)"
+
+#: ../src/tts.cpp:77
+msgid "English (Received Pronunciation)"
+msgstr "Английский (общепринятое произношение)"
+
+#: ../src/tts.cpp:78
+msgid "English (West Midlands)"
+msgstr "Английский (Уэст-Мидлендс)"
+
+#: ../src/tts.cpp:79
+msgid "English (American)"
+msgstr "Английский (американский)"
+
+#: ../src/tts.cpp:80
+msgid "English (Westindies)"
+msgstr "Английский (западная Индия)"
+
+#: ../src/tts.cpp:81
+msgid "Esperanto"
+msgstr "Эсперанто"
+
+#: ../src/tts.cpp:82
+msgid "Spanish"
+msgstr "Испанский"
+
+#: ../src/tts.cpp:83
+msgid "Spanish (Latin American)"
+msgstr "Испанский (латиноамериканский)"
+
+#: ../src/tts.cpp:84
+msgid "Finnish"
+msgstr "Финский"
+
+#: ../src/tts.cpp:85
+msgid "French"
+msgstr "Французский"
+
+#: ../src/tts.cpp:86
+msgid "French (Belgium)"
+msgstr "Французский (бельгийский)"
+
+#: ../src/tts.cpp:87
+msgid "Greek (Ancient)"
+msgstr "Греческий (древнегреческий)"
+
+#: ../src/tts.cpp:88
+msgid "Hindi"
+msgstr "Хинди"
+
+#: ../src/tts.cpp:89
+msgid "Croatian"
+msgstr "Хорватский"
+
+#: ../src/tts.cpp:90
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: ../src/tts.cpp:91
+msgid "Armenian"
+msgstr "Армянский"
+
+#: ../src/tts.cpp:92
+msgid "Armenian (West)"
+msgstr "Армянский (западный)"
+
+#: ../src/tts.cpp:93
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+#: ../src/tts.cpp:94
+msgid "Icelandic"
+msgstr "Исландский"
+
+#: ../src/tts.cpp:95
+msgid "Italian"
+msgstr "Итальянский"
+
+#: ../src/tts.cpp:96
+msgid "Lojban"
+msgstr "Ложбан"
+
+#: ../src/tts.cpp:97
+msgid "Kurdish"
+msgstr "Курдский"
+
+#: ../src/tts.cpp:98
+msgid "Latin"
+msgstr "Латинский"
+
+#: ../src/tts.cpp:99
+msgid "Latvian"
+msgstr "Латвийский"
+
+#: ../src/tts.cpp:100
+msgid "Macedonian"
+msgstr "Македонский"
+
+#: ../src/tts.cpp:101
+msgid "Dutch"
+msgstr "Голландский"
+
+#: ../src/tts.cpp:102
+msgid "Norwegian"
+msgstr "Норвежский"
+
+#: ../src/tts.cpp:103
+msgid "Papiamento"
+msgstr "Папиаменто"
+
+#: ../src/tts.cpp:104
+msgid "Polish"
+msgstr "Польский"
+
+#: ../src/tts.cpp:105
+msgid "Brazil"
+msgstr "Бразильский"
+
+#: ../src/tts.cpp:106
+msgid "Portugal"
+msgstr "Португальский"
+
+#: ../src/tts.cpp:107
+msgid "Romanian"
+msgstr "Румынский"
+
+#: ../src/tts.cpp:108
+msgid "Russian"
+msgstr "Русский"
+
+#: ../src/tts.cpp:109
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: ../src/tts.cpp:110
+msgid "Albanian"
+msgstr "Албанский"
+
+#: ../src/tts.cpp:111
+msgid "Serbian"
+msgstr "Сербский"
+
+#: ../src/tts.cpp:112
+msgid "Swedish"
+msgstr "Шведский"
+
+#: ../src/tts.cpp:113
+msgid "Swahihi"
+msgstr "Суахили"
+
+#: ../src/tts.cpp:114
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: ../src/tts.cpp:115
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: ../src/tts.cpp:116
+#, fuzzy
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: ../src/tts.cpp:117
+msgid "Chinese (Mandarin)"
+msgstr "Китайский (мандаринский)"
+
+#: ../src/tts.cpp:118
+msgid "Chinese (Cantonese)"
+msgstr "Китайский (кантонский)"
+
+#: ../src/tts.cpp:119
+msgid "Akam"
+msgstr ""
+
+#: ../src/tts.cpp:120
+msgid "Amharic"
+msgstr ""
+
+#: ../src/tts.cpp:121
+#, fuzzy
+msgid "Azerbaijani"
+msgstr "Сербский"
+
+#: ../src/tts.cpp:122
+#, fuzzy
+msgid "Bulgarian"
+msgstr "Венгерский"
+
+#: ../src/tts.cpp:123
+#, fuzzy
+msgid "Dari"
+msgstr "Датский"
+
+#: ../src/tts.cpp:124
+msgid "Divehi"
+msgstr ""
+
+#: ../src/tts.cpp:125
+#, fuzzy
+msgid "Georgian"
+msgstr "Немецкий"
+
+#: ../src/tts.cpp:126
+#, fuzzy
+msgid "Haitian"
+msgstr "Латвийский"
+
+#: ../src/tts.cpp:127
+msgid "Kannada"
+msgstr ""
+
+#: ../src/tts.cpp:128
+msgid "Kinyarwanda"
+msgstr ""
+
+#: ../src/tts.cpp:129
+msgid "Mlayalam"
+msgstr ""
+
+#: ../src/tts.cpp:130
+msgid "Nahuatl (Clasical)"
+msgstr ""
+
+#: ../src/tts.cpp:131
+msgid "Nepali"
+msgstr ""
+
+#: ../src/tts.cpp:132
+msgid "Northern Sotho"
+msgstr ""
+
+#: ../src/tts.cpp:133
+msgid "Punjabi"
+msgstr ""
+
+#: ../src/tts.cpp:134
+msgid "Setswana"
+msgstr ""
+
+#: ../src/tts.cpp:135
+msgid "Sinhala"
+msgstr ""
+
+#: ../src/tts.cpp:136
+#, fuzzy
+msgid "Slovenian"
+msgstr "Словацкий"
+
+#: ../src/tts.cpp:137
+#, fuzzy
+msgid "Swahili"
+msgstr "Суахили"
+
+#: ../src/tts.cpp:138
+msgid "Telugu"
+msgstr ""
+
+#: ../src/tts.cpp:139
+msgid "Urdu"
+msgstr ""
+
+#: ../src/tts.cpp:140
+msgid "Wolof"
+msgstr ""
+
+#: ../src/tts.cpp:141
+msgid "Default"
+msgstr "По-умолчанию"
+
+#: ../src/tts.cpp:351
+msgid "Text-To-Speech"
+msgstr "Произношение"
+
+#: ../src/tts.cpp:358
+msgid "Enable"
+msgstr "Включить"
+
+#: ../src/tts.cpp:366
+msgid "eSpeak"
+msgstr ""
+
+#: ../src/tts.cpp:370
+msgid "Real People"
+msgstr ""
+
+#: ../src/tts.cpp:378
+msgid "Male"
+msgstr "Мужской"
+
+#: ../src/tts.cpp:382
+msgid "Female"
+msgstr "Жанский"
+
+#: ../src/tts.cpp:388
+msgid "Language"
+msgstr "Язык"

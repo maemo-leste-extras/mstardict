@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MStarDict
+Comment=Lookup words
+Exec=mstardict
+Terminal=false
+Type=Application
+Icon=mstardict
+Categories=Utility;Dictionary;

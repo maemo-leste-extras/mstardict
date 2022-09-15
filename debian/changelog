@@ -1,0 +1,304 @@
+mstardict (0.6-5) unstable; urgency=low
+
+  * Added Wyabdc RealPeople TTS support by Pali Rohar.
+  * Added Catalan translation by el_libre.
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Mon,  4 Jun 2012 15:43:39 +0100
+
+mstardict (0.6-4) unstable; urgency=low
+
+  * Fixed installation of Czech translation.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri,  8 Oct 2010 14:05:46 +0200
+
+mstardict (0.6-3) unstable; urgency=low
+
+  * Added Russian translation by Alexey Gavrilov.
+  * Updated Czech translation (Thanks to Pavel Fric).
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri,  8 Oct 2010 13:42:09 +0200
+
+mstardict (0.6-2) unstable; urgency=low
+
+  * Fixed translation of language selector.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Thu, 27 May 2010 16:04:58 +0200
+
+mstardict (0.6-1) unstable; urgency=low
+
+  * Removed dependency to ttf-freefont.
+  * Fixed "Download dictionaries" URL.
+  * Added Finnish translation by Marko Vertainen.
+  * Updated Slovak translation.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Thu, 27 May 2010 14:36:51 +0200
+
+mstardict (0.5-2) unstable; urgency=low
+
+  * Added "Download dictionaries" menu item.
+  * Automatically create MyDocs/mstardict directory if doesn't exist.
+  * Directory ~/.stardict/dic added to the list of watched directories
+    for backward compatibility with stardict.
+  * Added Homepage, Vcs-Browser, Vcs-Git, XSBC-Bugtracker fields
+    to debian/control file.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Mon,  4 Mar 2010 18:55:27 +0100
+
+mstardict (0.5-1) unstable; urgency=low
+
+  * Added espeak support.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Mon, 15 Feb 2010 16:09:47 +0100
+
+mstardict (0.4-4) unstable; urgency=low
+
+  * Result window was showing "No search reasult" after Enter
+    key was pressed.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Wed, 10 Feb 2010 17:12:11 +0100
+
+mstardict (0.4-3) unstable; urgency=low
+
+  * Make package depend on ttf-freefont.
+  * Added clear button.
+  * Fixed wrapping of lines in translation window.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Wed, 10 Feb 2010 15:03:58 +0100
+
+mstardict (0.4-2) unstable; urgency=low
+
+  * Reimplemented parser.
+  * Rewritten translation window.
+  * Updated Slovak translation.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Mon,  8 Feb 2010 16:22:36 +0100
+
+mstardict (0.4-1) unstable; urgency=low
+
+  * Fixed searching of synonyms.
+  * Added preliminary support of Stardict plugins.
+  * Added HTML, PowerWord, Wiki and XDXF parse plugins.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Thu,  4 Feb 2010 18:01:14 +0100
+
+mstardict (0.3-2) unstable; urgency=low
+
+  * Splited code of dictionary management.
+  * Fixed full-text search.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Wed,  3 Feb 2010 17:49:37 +0100
+
+mstardict (0.3-1) unstable; urgency=low
+
+  * Added dictionary management.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Tue,  2 Feb 2010 13:01:02 +0100
+
+mstardict (0.2-5) unstable; urgency=low
+
+  * Reimplemented lookup with Fuzzy and Rule (not working yet)
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri, 29 Jan 2010 18:22:29 +0100
+
+mstardict (0.2-4) unstable; urgency=low
+
+  * sdcv search mechanism replaced by ported search from stardict.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri, 29 Jan 2010 16:53:10 +0100
+
+mstardict (0.2-3) unstable; urgency=low
+
+  * Fixed installation of desktop file.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Thu, 28 Jan 2010 14:50:13 +0100
+
+mstardict (0.2-2) unstable; urgency=low
+
+  * Improvments of UI.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Thu, 28 Jan 2010 14:21:52 +0100
+
+mstardict (0.2-1) unstable; urgency=low
+
+  * Imported stardict-3.0.1 library.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri, 22 Jan 2010 14:08:36 +0100
+
+mstardict (0.1-1) unstable; urgency=low
+
+  * First version base on sdcv-0.4.2.
+
+ -- Roman Moravcik <roman.moravcik@gmail.com>  Fri, 22 Jan 2010 14:08:36 +0100
+
+sdcv (0.4.2-13) unstable; urgency=low
+
+  * Convert to 3.0 (quilt) source format.
+  * Simplify debian/rules.
+  * Fix typo in man page.
+
+ -- Michal Čihař <nijel@debian.org>  Sun, 03 Jan 2010 14:08:36 +0100
+
+sdcv (0.4.2-12) unstable; urgency=low
+
+  * Build depend on libreadline-dev only, no libreadline5-dev 
+    (Closes: #553848).
+  * Bump standards to 3.8.3.
+
+ -- Michal Čihař <nijel@debian.org>  Mon, 02 Nov 2009 08:47:06 +0100
+
+sdcv (0.4.2-11) unstable; urgency=low
+
+  * Simplify debian/rules by using overrides, --with-quilt and debian/clean.
+  * Regenerate autoconf files during build (Closes: #534814).
+
+ -- Michal Čihař <nijel@debian.org>  Mon, 29 Jun 2009 10:25:24 +0200
+
+sdcv (0.4.2-10) unstable; urgency=low
+
+  * Build depend on autotools-dev to update config.{sub,guess}.
+  * Bump standards to 3.8.2 (no changes needed).
+  * Avoid duplicating section in debian/control.
+  * Point to GPL-2 in debian/copyright.
+  * Improve description a bit.
+
+ -- Michal Čihař <nijel@debian.org>  Wed, 24 Jun 2009 11:37:20 +0200
+
+sdcv (0.4.2-9) unstable; urgency=low
+
+  * Switch Vcs-Browser to viewsvn.
+  * Fix FTBFS with GCC 4.4 (Closes: #505344).
+  * Document all Debian patches.
+  * Add ${misc:Depends} to deps.
+
+ -- Michal Čihař <nijel@debian.org>  Fri, 19 Dec 2008 14:09:09 +0100
+
+sdcv (0.4.2-8) unstable; urgency=low
+
+  * Fix FTBFS if built twice (Closes: #503031).
+  * Unfuzzy string in Slovak translation (caused by another patch and the
+    translation is not really fuzzy).
+
+ -- Michal Čihař <nijel@debian.org>  Wed, 22 Oct 2008 08:02:56 +0200
+
+sdcv (0.4.2-7) unstable; urgency=low
+
+  * Properly typecast to avoid problems with signed char.
+  * Fix format chars to avoid possible problems on 64-bit arches.
+  * Properly handle gzread return values.
+
+ -- Michal Čihař <nijel@debian.org>  Mon, 20 Oct 2008 11:22:28 +0200
+
+sdcv (0.4.2-6) unstable; urgency=low
+
+  * Fix unalligned access to internal buffer while reading dictionary index
+    (Closes: #500921).
+
+ -- Michal Čihař <nijel@debian.org>  Mon, 06 Oct 2008 14:07:45 +0200
+
+sdcv (0.4.2-5) unstable; urgency=low
+
+  * Make sdcv accept $HOME as home directory (Closes: #500921).
+
+ -- Michal Čihař <nijel@debian.org>  Fri, 03 Oct 2008 09:18:52 +0200
+
+sdcv (0.4.2-4) unstable; urgency=low
+
+  * Create fake home directory to make testing possible (Closes: #500318).
+
+ -- Michal Čihař <nijel@debian.org>  Mon, 29 Sep 2008 08:46:18 +0200
+
+sdcv (0.4.2-3) unstable; urgency=low
+
+  * New maintainer (Closes: #480557).
+  * Maintain package in collab-maint, add Vcs-* headers.
+  * Convert to debhelper 7.
+  * Use quilt to apply all patches.
+  * Acknowledge NMUs, thanks to all who helped (Closes: #470985, #474819,
+    #450040, #417687, #441754).
+  * Fix running of testsuite with dash as /bin/sh.
+  * Added Czech translation.
+  * Run explicitely update-gmo to regenerate translations.
+  * Fix typo in english translation.
+  * Fix errors in uk man page.
+  * All patches were reported upstream.
+  * Update to standards 3.8.0.
+  * Use machine-interpretable debian/copyright.
+
+ -- Michal Čihař <nijel@debian.org>  Wed, 24 Sep 2008 11:25:30 +0200
+
+sdcv (0.4.2-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * FTBFS: libwrapper.cpp:55: error: 'strchr' was not declared in this
+    scope (Closes: #474819)
+  * debian/control:
+    - Bump Standards-Version to 3.7.3.
+    - Use Homepage: field for upstream URL.
+  * Update debian/watch file to use SourceForge-specific syntax (Closes:
+    450040)
+
+ -- Chris Lamb <chris@chris-lamb.co.uk>  Sat, 12 Apr 2008 01:10:51 +0100
+
+sdcv (0.4.2-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS with GCC 4.3 (Closes: #417687).
+  * Update Slovak translation (Closes: #441754).
+
+ -- Luk Claes <luk@debian.org>  Fri, 14 Mar 2008 22:22:31 +0000
+
+sdcv (0.4.2-2) unstable; urgency=low
+
+  * Apply patch for AMD64 build by Matej Vela <vela@debian.org> 
+    (Closes: #369702)
+  * Apply patch for pango markup support (Closes: #365324)
+
+ -- Cai Qian <caiqian@debian.org>  Sat, 10 June 2006 19:33:09 +0100
+
+sdcv (0.4.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Modify watch file
+  * Use new policy
+
+ -- Cai Qian <caiqian@debian.org>  Wed, 31 May 2006 00:57:09 +0100
+
+sdcv (0.4-3) unstable; urgency=low
+
+  * Correct watch file format
+  * Add readline option in debian/rules
+
+ -- Cai Qian <caiqian@debian.org>  Sat, 22 Oct 2005 20:08:00 +0100
+
+sdcv (0.4-2) unstable; urgency=low
+
+  * Build with libreadline support
+  * Add watch file
+
+ -- Cai Qian <caiqian@debian.org>  Thu, 20 Oct 2005 21:10:00 +0100
+
+sdcv (0.4-1) unstable; urgency=low
+
+  * New upstream release
+  * SDCV did not provide libsdcv and libsdcv-dev any more 
+  * Corrected FSF address
+
+ -- Cai Qian <caiqian@debian.org>  Tue, 27 Sep 2005 13:03:00 +0100
+
+sdcv (0.3.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Now SDCV is using autotools build system.
+  * Split SDCV into sdcv, libsdcv3 and libsdcv-dev.
+  * Add Chinese po file.
+  * Sponsored by Brian Nelson.
+
+ -- Cai Qian <caiqian@gnome.org>  Mon, 21 Jan 2005 09:49:03 +0800
+
+sdcv (0.1-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #250532)
+  * Sponsored by Brian Nelson <pyro@debian.org>
+
+ -- Cai Qian <caiqian@gnome.org>  Mon, 15 Nov 2004 23:12:29 +0800
+

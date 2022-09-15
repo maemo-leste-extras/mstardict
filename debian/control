@@ -1,0 +1,62 @@
+Source: mstardict
+Priority: optional
+Section: user/utilities
+Maintainer: Roman Moravcik <roman.moravcik@gmail.com>
+Build-Depends: debhelper (>= 5.0.0), gettext, libhildon1-dev, libosso-dev, libgtk2.0-dev, libglib2.0-dev, libsigc++-2.0-dev, zlib1g-dev, maemo-optify, libgconf2-dev, libespeak-dev
+Standards-Version: 3.8.3
+Homepage: http://mstardict.garage.maemo.org/
+Vcs-Browser: https://garage.maemo.org/plugins/ggit/browse.php/?p=mstardict
+Vcs-Git: https://vcs.maemo.org/git/mstardict
+
+Package: mstardict
+Architecture: any
+Depends: ${shlibs:Depends}, pulseaudio-utils
+Description: International dictionary for Maemo
+ MStarDict is a StarDict clone written with using Gtk2 for Maemo.
+ It can use StarDict DICT files as a word database for translation.
+ .
+ MStarDict is loading StarDict DICT files and Wyabdc RealPeople TTS
+ sounds from MyDocs/mstardict/ directory.
+XB-Maemo-Display-Name: MStarDict
+XSBC-Bugtracker: https://garage.maemo.org/tracker/?func=add&group_id=1357&atid=5024
+XB-Maemo-Icon-26:
+ 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
+ gg==

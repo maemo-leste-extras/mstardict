@@ -1,0 +1,431 @@
+# This is Chinese translation for MStardict.# Copyright (C) 2010 GreyAir
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <greyair@gmail.com>, 2010.#
+msgid ""
+msgstr ""
+"Project-Id-Version: mstardict\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-14 12:56+0100\n"
+"PO-Revision-Date: 2010-10-19 19:45+0800\n"
+"Last-Translator: GreyAir <greyair@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/dictmngr.cpp:98 ../src/mstardict.cpp:473
+msgid "Dictionaries"
+msgstr "词典"
+
+#: ../src/libwrapper.cpp:126
+msgid "XDXF data parsing plug-in is not found!"
+msgstr "XDXF数据解析插件未找到!"
+
+#: ../src/libwrapper.cpp:131
+msgid "PowerWord data parsing plug-in is not found!"
+msgstr "金山词霸数据解析插件未找到!"
+
+#: ../src/libwrapper.cpp:136
+msgid "Wiki data parsing plug-in is not found!"
+msgstr "维基数据解析插件未找到!"
+
+#: ../src/libwrapper.cpp:141
+msgid "HTML data parsing plug-in is not found!"
+msgstr "HTML数据解析插件未找到!"
+
+#: ../src/libwrapper.cpp:146
+msgid "WordNet data parsing plug-in is not found!"
+msgstr "WordNet的数据解析插件未找到!"
+
+#: ../src/libwrapper.cpp:192
+msgid "<span foreground=\"red\">[Load image error!]</span>"
+msgstr "<span foreground=\\\"red\\\">[载入图片错误!]</span>"
+
+#: ../src/libwrapper.cpp:196
+msgid "<span foreground=\"red\">[Missing Image]</span>"
+msgstr "<span foreground=\\\"red\\\">[缺少图像]</span>"
+
+#: ../src/libwrapper.cpp:210
+msgid "Unknown data type"
+msgstr "未知的数据类型"
+
+#: ../src/mstardict.cpp:319
+msgid "Searching"
+msgstr "搜索"
+
+#: ../src/mstardict.cpp:321
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/mstardict.cpp:355
+msgid "MStardict"
+msgstr "词典"
+
+#. no_search_result label
+#: ../src/mstardict.cpp:372 ../src/mstardict.cpp:568
+msgid "No search result"
+msgstr "无搜索结果"
+
+#: ../src/mstardict.cpp:479
+msgid "Download dictionaries"
+msgstr "下载词库"
+
+#: ../src/mstardict.cpp:485 ../src/prefsdlg.cpp:66
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: ../src/mstardict.cpp:491
+msgid "Quit"
+msgstr "退出"
+
+#: ../src/mstardict.cpp:581
+msgid "No loaded dictionary"
+msgstr "没有载入词库"
+
+#: ../src/transwin.cpp:123
+msgid "Translation"
+msgstr "翻译"
+
+#: ../src/transwin.cpp:167
+msgid "Say"
+msgstr "语音"
+
+#: ../src/tts.cpp:66
+msgid "Afrikaans"
+msgstr "南非语"
+
+#: ../src/tts.cpp:67
+msgid "Bosnian"
+msgstr "波斯尼亚语"
+
+#: ../src/tts.cpp:68
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+#: ../src/tts.cpp:69
+msgid "Czech"
+msgstr "捷克语"
+
+#: ../src/tts.cpp:70
+msgid "Welsh"
+msgstr "威尔士语"
+
+#: ../src/tts.cpp:71
+msgid "Danish"
+msgstr "丹麦语"
+
+#: ../src/tts.cpp:72
+msgid "German"
+msgstr "德语"
+
+#: ../src/tts.cpp:73
+msgid "Greek"
+msgstr "希腊语"
+
+#: ../src/tts.cpp:74
+msgid "English (Scottish)"
+msgstr "英语（苏格兰）"
+
+#: ../src/tts.cpp:75
+msgid "English"
+msgstr "英语"
+
+#: ../src/tts.cpp:76
+msgid "English (Lancashire)"
+msgstr "英语 ( 兰开夏郡 )"
+
+#: ../src/tts.cpp:77
+msgid "English (Received Pronunciation)"
+msgstr "英语（收稿发音）"
+
+#: ../src/tts.cpp:78
+msgid "English (West Midlands)"
+msgstr "英语（西米德兰兹）"
+
+#: ../src/tts.cpp:79
+msgid "English (American)"
+msgstr "英语（美国）"
+
+#: ../src/tts.cpp:80
+msgid "English (Westindies)"
+msgstr "英语（西印度群岛）"
+
+#: ../src/tts.cpp:81
+msgid "Esperanto"
+msgstr "世界语"
+
+#: ../src/tts.cpp:82
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: ../src/tts.cpp:83
+msgid "Spanish (Latin American)"
+msgstr "西班牙语（拉丁美洲）"
+
+#: ../src/tts.cpp:84
+msgid "Finnish"
+msgstr "芬兰语"
+
+#: ../src/tts.cpp:85
+msgid "French"
+msgstr "法语"
+
+#: ../src/tts.cpp:86
+msgid "French (Belgium)"
+msgstr "法语（比利时）"
+
+#: ../src/tts.cpp:87
+msgid "Greek (Ancient)"
+msgstr "希腊语（古）"
+
+#: ../src/tts.cpp:88
+msgid "Hindi"
+msgstr "印地语"
+
+#: ../src/tts.cpp:89
+msgid "Croatian"
+msgstr "克罗地亚语"
+
+#: ../src/tts.cpp:90
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+#: ../src/tts.cpp:91
+msgid "Armenian"
+msgstr "亚美尼亚语"
+
+#: ../src/tts.cpp:92
+msgid "Armenian (West)"
+msgstr "亚美尼亚语（西部）"
+
+#: ../src/tts.cpp:93
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+#: ../src/tts.cpp:94
+msgid "Icelandic"
+msgstr "冰岛语"
+
+#: ../src/tts.cpp:95
+msgid "Italian"
+msgstr "意大利语"
+
+#: ../src/tts.cpp:96
+msgid "Lojban"
+msgstr "逻辑语"
+
+#: ../src/tts.cpp:97
+msgid "Kurdish"
+msgstr "库尔德语"
+
+#: ../src/tts.cpp:98
+msgid "Latin"
+msgstr "拉丁语"
+
+#: ../src/tts.cpp:99
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+#: ../src/tts.cpp:100
+msgid "Macedonian"
+msgstr "马其顿语"
+
+#: ../src/tts.cpp:101
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: ../src/tts.cpp:102
+msgid "Norwegian"
+msgstr "挪威语"
+
+#: ../src/tts.cpp:103
+msgid "Papiamento"
+msgstr "帕皮阿门托语"
+
+#: ../src/tts.cpp:104
+msgid "Polish"
+msgstr "波兰语"
+
+#: ../src/tts.cpp:105
+msgid "Brazil"
+msgstr "巴西语"
+
+#: ../src/tts.cpp:106
+msgid "Portugal"
+msgstr "葡萄牙语"
+
+#: ../src/tts.cpp:107
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: ../src/tts.cpp:108
+msgid "Russian"
+msgstr "俄语"
+
+#: ../src/tts.cpp:109
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+#: ../src/tts.cpp:110
+msgid "Albanian"
+msgstr "阿尔巴尼亚语"
+
+#: ../src/tts.cpp:111
+msgid "Serbian"
+msgstr "塞尔维亚语"
+
+#: ../src/tts.cpp:112
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: ../src/tts.cpp:113
+msgid "Swahihi"
+msgstr "斯瓦希里语"
+
+#: ../src/tts.cpp:114
+msgid "Tamil"
+msgstr "泰米尔语"
+
+#: ../src/tts.cpp:115
+msgid "Turkish"
+msgstr "土耳其语"
+
+#: ../src/tts.cpp:116
+#, fuzzy
+msgid "Vietnamese"
+msgstr "越南语"
+
+#: ../src/tts.cpp:117
+msgid "Chinese (Mandarin)"
+msgstr "中文（普通话）"
+
+#: ../src/tts.cpp:118
+msgid "Chinese (Cantonese)"
+msgstr "中文（广东话）"
+
+#: ../src/tts.cpp:119
+msgid "Akam"
+msgstr ""
+
+#: ../src/tts.cpp:120
+msgid "Amharic"
+msgstr ""
+
+#: ../src/tts.cpp:121
+#, fuzzy
+msgid "Azerbaijani"
+msgstr "塞尔维亚语"
+
+#: ../src/tts.cpp:122
+#, fuzzy
+msgid "Bulgarian"
+msgstr "匈牙利语"
+
+#: ../src/tts.cpp:123
+#, fuzzy
+msgid "Dari"
+msgstr "丹麦语"
+
+#: ../src/tts.cpp:124
+msgid "Divehi"
+msgstr ""
+
+#: ../src/tts.cpp:125
+#, fuzzy
+msgid "Georgian"
+msgstr "德语"
+
+#: ../src/tts.cpp:126
+#, fuzzy
+msgid "Haitian"
+msgstr "拉脱维亚语"
+
+#: ../src/tts.cpp:127
+msgid "Kannada"
+msgstr ""
+
+#: ../src/tts.cpp:128
+msgid "Kinyarwanda"
+msgstr ""
+
+#: ../src/tts.cpp:129
+msgid "Mlayalam"
+msgstr ""
+
+#: ../src/tts.cpp:130
+msgid "Nahuatl (Clasical)"
+msgstr ""
+
+#: ../src/tts.cpp:131
+msgid "Nepali"
+msgstr ""
+
+#: ../src/tts.cpp:132
+msgid "Northern Sotho"
+msgstr ""
+
+#: ../src/tts.cpp:133
+msgid "Punjabi"
+msgstr ""
+
+#: ../src/tts.cpp:134
+msgid "Setswana"
+msgstr ""
+
+#: ../src/tts.cpp:135
+msgid "Sinhala"
+msgstr ""
+
+#: ../src/tts.cpp:136
+#, fuzzy
+msgid "Slovenian"
+msgstr "斯洛伐克语"
+
+#: ../src/tts.cpp:137
+#, fuzzy
+msgid "Swahili"
+msgstr "斯瓦希里语"
+
+#: ../src/tts.cpp:138
+msgid "Telugu"
+msgstr ""
+
+#: ../src/tts.cpp:139
+msgid "Urdu"
+msgstr ""
+
+#: ../src/tts.cpp:140
+msgid "Wolof"
+msgstr ""
+
+#: ../src/tts.cpp:141
+msgid "Default"
+msgstr "默认"
+
+#: ../src/tts.cpp:351
+msgid "Text-To-Speech"
+msgstr "语音"
+
+#: ../src/tts.cpp:358
+msgid "Enable"
+msgstr "启用"
+
+#: ../src/tts.cpp:366
+msgid "eSpeak"
+msgstr ""
+
+#: ../src/tts.cpp:370
+msgid "Real People"
+msgstr ""
+
+#: ../src/tts.cpp:378
+msgid "Male"
+msgstr "男性"
+
+#: ../src/tts.cpp:382
+msgid "Female"
+msgstr "女性"
+
+#: ../src/tts.cpp:388
+msgid "Language"
+msgstr "语言"

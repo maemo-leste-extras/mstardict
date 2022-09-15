@@ -1,0 +1,433 @@
+# This is Finnish translation for MStardict.
+# Copyright (C) 2010 Marko Vertainen
+# This file is distributed under the same license as the MStardict package.
+# FIRST AUTHOR <marko.vertainen@iki.fi>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-14 12:56+0100\n"
+"PO-Revision-Date: 2010-05-17 11:31+0200\n"
+"Last-Translator: Marko Vertainen <marko.vertainen@iki.fi>\n"
+"Language-Team: FINNISH <FI@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/dictmngr.cpp:98 ../src/mstardict.cpp:473
+msgid "Dictionaries"
+msgstr "Sanakirjat"
+
+#: ../src/libwrapper.cpp:126
+msgid "XDXF data parsing plug-in is not found!"
+msgstr "XDXF-tietojenkäsittelyn liitännäistä ei löydy!"
+
+#: ../src/libwrapper.cpp:131
+msgid "PowerWord data parsing plug-in is not found!"
+msgstr "PowerWord tietojenkäsittelyn liitännäistä ei löydy!"
+
+#: ../src/libwrapper.cpp:136
+msgid "Wiki data parsing plug-in is not found!"
+msgstr "Wiki-tietojenkäsittelyn liitännäistä ei löydy!"
+
+#: ../src/libwrapper.cpp:141
+msgid "HTML data parsing plug-in is not found!"
+msgstr "HTML-tietojenkäsittelyn liitännäistä ei löydy!"
+
+#: ../src/libwrapper.cpp:146
+msgid "WordNet data parsing plug-in is not found!"
+msgstr "WordNet-tietojenkäsittelyn liitännäistä ei löydy!"
+
+#: ../src/libwrapper.cpp:192
+msgid "<span foreground=\"red\">[Load image error!]</span>"
+msgstr "<span foreground=\"red\">[Kuvan latausvirhe!]</span>"
+
+#: ../src/libwrapper.cpp:196
+msgid "<span foreground=\"red\">[Missing Image]</span>"
+msgstr "<span foreground=\"red\">[Puuttuva kuva]</span>"
+
+#: ../src/libwrapper.cpp:210
+msgid "Unknown data type"
+msgstr "Tuntematon tietotyyppi"
+
+#: ../src/mstardict.cpp:319
+msgid "Searching"
+msgstr "Etsitään"
+
+#: ../src/mstardict.cpp:321
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../src/mstardict.cpp:355
+msgid "MStardict"
+msgstr "MStardict"
+
+#. no_search_result label
+#: ../src/mstardict.cpp:372 ../src/mstardict.cpp:568
+msgid "No search result"
+msgstr "Ei hakutuloksia"
+
+#: ../src/mstardict.cpp:479
+msgid "Download dictionaries"
+msgstr "Hae sanakirjoja"
+
+#: ../src/mstardict.cpp:485 ../src/prefsdlg.cpp:66
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: ../src/mstardict.cpp:491
+msgid "Quit"
+msgstr "Lopeta"
+
+#: ../src/mstardict.cpp:581
+msgid "No loaded dictionary"
+msgstr "Sanakirjaa ei ladattu"
+
+#: ../src/transwin.cpp:123
+msgid "Translation"
+msgstr "Käännös"
+
+#: ../src/transwin.cpp:167
+msgid "Say"
+msgstr "Sano"
+
+#: ../src/tts.cpp:66
+msgid "Afrikaans"
+msgstr "Afrikaani"
+
+#: ../src/tts.cpp:67
+msgid "Bosnian"
+msgstr "Bosnialainen"
+
+#: ../src/tts.cpp:68
+msgid "Catalan"
+msgstr "Katalaani"
+
+#: ../src/tts.cpp:69
+msgid "Czech"
+msgstr "Tsekkiläinen"
+
+#: ../src/tts.cpp:70
+msgid "Welsh"
+msgstr "Waleslainen"
+
+#: ../src/tts.cpp:71
+msgid "Danish"
+msgstr "Tanskalainen"
+
+#: ../src/tts.cpp:72
+msgid "German"
+msgstr "Saksalainen"
+
+#: ../src/tts.cpp:73
+msgid "Greek"
+msgstr "Kreikkalainen"
+
+#: ../src/tts.cpp:74
+msgid "English (Scottish)"
+msgstr "Englantilainen (skotti)"
+
+#: ../src/tts.cpp:75
+msgid "English"
+msgstr "Englantilainen"
+
+#: ../src/tts.cpp:76
+msgid "English (Lancashire)"
+msgstr "Englantilainen (Lancashire)"
+
+#: ../src/tts.cpp:77
+msgid "English (Received Pronunciation)"
+msgstr "Englantilainen (Yleiskielinen ääntämys)"
+
+#: ../src/tts.cpp:78
+msgid "English (West Midlands)"
+msgstr "Englantilainen (West Midland)"
+
+#: ../src/tts.cpp:79
+msgid "English (American)"
+msgstr "Englantilainen (Amerikka)"
+
+#: ../src/tts.cpp:80
+msgid "English (Westindies)"
+msgstr "Englantilainen (Westindies)"
+
+#: ../src/tts.cpp:81
+msgid "Esperanto"
+msgstr "Esperantolainen"
+
+#: ../src/tts.cpp:82
+msgid "Spanish"
+msgstr "Espanjalainen"
+
+#: ../src/tts.cpp:83
+msgid "Spanish (Latin American)"
+msgstr "Espanjalainen (Latinalainen Amerikka)"
+
+#: ../src/tts.cpp:84
+msgid "Finnish"
+msgstr "Suomalainen"
+
+#: ../src/tts.cpp:85
+msgid "French"
+msgstr "Ranskalainen"
+
+#: ../src/tts.cpp:86
+msgid "French (Belgium)"
+msgstr "Ranskalainen (Belgia)"
+
+#: ../src/tts.cpp:87
+msgid "Greek (Ancient)"
+msgstr "Kreikkalainen (muinainen)"
+
+#: ../src/tts.cpp:88
+msgid "Hindi"
+msgstr "Hindilainen"
+
+#: ../src/tts.cpp:89
+msgid "Croatian"
+msgstr "Kroatialainen"
+
+#: ../src/tts.cpp:90
+msgid "Hungarian"
+msgstr "Unkarilainen"
+
+#: ../src/tts.cpp:91
+msgid "Armenian"
+msgstr "Armenialainen"
+
+#: ../src/tts.cpp:92
+msgid "Armenian (West)"
+msgstr "Armenialainen (Länsi)"
+
+#: ../src/tts.cpp:93
+msgid "Indonesian"
+msgstr "Indonesialainen"
+
+#: ../src/tts.cpp:94
+msgid "Icelandic"
+msgstr "Islantilainen"
+
+#: ../src/tts.cpp:95
+msgid "Italian"
+msgstr "Italialainen"
+
+#: ../src/tts.cpp:96
+msgid "Lojban"
+msgstr "Lojbanilainen"
+
+#: ../src/tts.cpp:97
+msgid "Kurdish"
+msgstr "Kurdi"
+
+#: ../src/tts.cpp:98
+msgid "Latin"
+msgstr "Latina"
+
+#: ../src/tts.cpp:99
+msgid "Latvian"
+msgstr "Latvialainen"
+
+#: ../src/tts.cpp:100
+msgid "Macedonian"
+msgstr "Makedonialainen"
+
+#: ../src/tts.cpp:101
+msgid "Dutch"
+msgstr "Hollantilainen"
+
+#: ../src/tts.cpp:102
+msgid "Norwegian"
+msgstr "Norjalainen"
+
+#: ../src/tts.cpp:103
+msgid "Papiamento"
+msgstr "Papiamentolainen"
+
+#: ../src/tts.cpp:104
+msgid "Polish"
+msgstr "Puolalainen"
+
+#: ../src/tts.cpp:105
+msgid "Brazil"
+msgstr "Brasilialainen"
+
+#: ../src/tts.cpp:106
+msgid "Portugal"
+msgstr "Portugalialainen"
+
+#: ../src/tts.cpp:107
+msgid "Romanian"
+msgstr "Romanialainen"
+
+#: ../src/tts.cpp:108
+msgid "Russian"
+msgstr "Venäläinen"
+
+#: ../src/tts.cpp:109
+msgid "Slovak"
+msgstr "Slovakialainen"
+
+#: ../src/tts.cpp:110
+msgid "Albanian"
+msgstr "Albanialainen"
+
+#: ../src/tts.cpp:111
+msgid "Serbian"
+msgstr "Serbialainen"
+
+#: ../src/tts.cpp:112
+msgid "Swedish"
+msgstr "Ruotsalainen"
+
+#: ../src/tts.cpp:113
+msgid "Swahihi"
+msgstr "Swahili"
+
+#: ../src/tts.cpp:114
+msgid "Tamil"
+msgstr "Tamili"
+
+#: ../src/tts.cpp:115
+msgid "Turkish"
+msgstr "Turkkilainen"
+
+#: ../src/tts.cpp:116
+#, fuzzy
+msgid "Vietnamese"
+msgstr "Vietnamilainen"
+
+#: ../src/tts.cpp:117
+msgid "Chinese (Mandarin)"
+msgstr "Kiinalainen (Mandariini)"
+
+#: ../src/tts.cpp:118
+msgid "Chinese (Cantonese)"
+msgstr "Kiinalainen (Kantoni)"
+
+#: ../src/tts.cpp:119
+msgid "Akam"
+msgstr ""
+
+#: ../src/tts.cpp:120
+msgid "Amharic"
+msgstr ""
+
+#: ../src/tts.cpp:121
+#, fuzzy
+msgid "Azerbaijani"
+msgstr "Serbialainen"
+
+#: ../src/tts.cpp:122
+#, fuzzy
+msgid "Bulgarian"
+msgstr "Unkarilainen"
+
+#: ../src/tts.cpp:123
+#, fuzzy
+msgid "Dari"
+msgstr "Tanskalainen"
+
+#: ../src/tts.cpp:124
+msgid "Divehi"
+msgstr ""
+
+#: ../src/tts.cpp:125
+#, fuzzy
+msgid "Georgian"
+msgstr "Saksalainen"
+
+#: ../src/tts.cpp:126
+#, fuzzy
+msgid "Haitian"
+msgstr "Latvialainen"
+
+#: ../src/tts.cpp:127
+msgid "Kannada"
+msgstr ""
+
+#: ../src/tts.cpp:128
+msgid "Kinyarwanda"
+msgstr ""
+
+#: ../src/tts.cpp:129
+msgid "Mlayalam"
+msgstr ""
+
+#: ../src/tts.cpp:130
+msgid "Nahuatl (Clasical)"
+msgstr ""
+
+#: ../src/tts.cpp:131
+msgid "Nepali"
+msgstr ""
+
+#: ../src/tts.cpp:132
+msgid "Northern Sotho"
+msgstr ""
+
+#: ../src/tts.cpp:133
+msgid "Punjabi"
+msgstr ""
+
+#: ../src/tts.cpp:134
+msgid "Setswana"
+msgstr ""
+
+#: ../src/tts.cpp:135
+msgid "Sinhala"
+msgstr ""
+
+#: ../src/tts.cpp:136
+#, fuzzy
+msgid "Slovenian"
+msgstr "Slovakialainen"
+
+#: ../src/tts.cpp:137
+#, fuzzy
+msgid "Swahili"
+msgstr "Swahili"
+
+#: ../src/tts.cpp:138
+msgid "Telugu"
+msgstr ""
+
+#: ../src/tts.cpp:139
+msgid "Urdu"
+msgstr ""
+
+#: ../src/tts.cpp:140
+msgid "Wolof"
+msgstr ""
+
+#: ../src/tts.cpp:141
+msgid "Default"
+msgstr "Oletus"
+
+#: ../src/tts.cpp:351
+msgid "Text-To-Speech"
+msgstr "Teksti-Puheeksi"
+
+#: ../src/tts.cpp:358
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: ../src/tts.cpp:366
+msgid "eSpeak"
+msgstr ""
+
+#: ../src/tts.cpp:370
+msgid "Real People"
+msgstr ""
+
+#: ../src/tts.cpp:378
+msgid "Male"
+msgstr "Mies"
+
+#: ../src/tts.cpp:382
+msgid "Female"
+msgstr "Nainen"
+
+#: ../src/tts.cpp:388
+msgid "Language"
+msgstr "Kieli"
