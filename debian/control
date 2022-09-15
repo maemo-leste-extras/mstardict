@@ -18,7 +18,7 @@ Description: International dictionary for Maemo
  MStarDict is loading StarDict DICT files and Wyabdc RealPeople TTS
  sounds from MyDocs/mstardict/ directory.
 XB-Maemo-Display-Name: MStarDict
-XSBC-Bugtracker: https://garage.maemo.org/tracker/?func=add&group_id=1357&atid=5024
+XSBC-Bugtracker: https://github.com/norayr/mstardict
 XB-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgI
  fAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3
