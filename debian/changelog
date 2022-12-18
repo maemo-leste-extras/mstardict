@@ -1,3 +1,7 @@
+mstardict (0.6.1-5+leste1) unstable; urgency=low
+  * chimaera build 
+ -- Norayr Chilingarian <norayr@arnet.am>  Mon,  19 Dec 2022 01:24:36 +0400
+
 mstardict (0.6-5+leste1) unstable; urgency=low
   * leste port, new compilers, new tools.
  -- Norayr Chilingarian <norayr@arnet.am>  Fri,  16 Sep 2022 00:36:36 +0400

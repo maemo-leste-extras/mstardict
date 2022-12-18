@@ -10,7 +10,7 @@ mstardict_SOURCES = \
 	tts.cpp tts.hpp
 
 mstardict_DEPENDENCIES = lib/libstardict.a
-mstardict_LDADD = @MSTARDICT_LIBS@ @LIBINTL@ lib/libstardict.a
+mstardict_LDADD = lib/libstardict.a @MSTARDICT_LIBS@ @LIBINTL@
 localedir = $(datadir)/locale
 
 AM_CPPFLAGS = @MSTARDICT_CFLAGS@  -I$(top_builddir) -Ilib
