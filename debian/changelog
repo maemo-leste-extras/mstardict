@@ -1,3 +1,7 @@
+mstardict (0.6.2-1) unstable; urgency=low
+  * daedalus build 
+ -- Norayr Chilingarian <norayr@arnet.am>  Mon,  04 July 2025 19:31:36 +0400
+
 mstardict (0.6.1-5+leste1) unstable; urgency=low
   * chimaera build 
  -- Norayr Chilingarian <norayr@arnet.am>  Mon,  19 Dec 2022 01:24:36 +0400
