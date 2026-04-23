@@ -2488,12 +2488,13 @@ bool Libs::LookupSynonymSimilarWord(const gchar* sWord, glong &iSynonymWordIndex
 		}
 		// Upper the first character and lower others.
 		if (!bFound) {
-			gchar *nextchar = g_utf8_next_char(sWord);
+			const gchar *nextchar = g_utf8_next_char(sWord);
 			gchar *firstchar = g_utf8_strup(sWord, nextchar - sWord);
-			nextchar = g_utf8_strdown(nextchar, -1);
-			casestr = g_strdup_printf("%s%s", firstchar, nextchar);
+			//nextchar = g_utf8_strdown(nextchar, -1);
+			gchar *rest = g_utf8_strdown(nextchar, -1);
+			casestr = g_strdup_printf("%s%s", firstchar, rest);
 			g_free(firstchar);
-			g_free(nextchar);
+			g_free(rest);
 			if (strcmp(casestr, sWord)) {
 				bLookup = oLib[iLib]->LookupSynonym(casestr, iIndex, iIndex_suggest, EnableCollationLevel, servercollatefunc);
 				if(bLookup)
@@ -2560,12 +2561,13 @@ bool Libs::LookupSimilarWord(const gchar* sWord, glong & iWordIndex, glong &idx_
 		}
 		// Upper the first character and lower others.
 		if (!bFound) {
-			gchar *nextchar = g_utf8_next_char(sWord);
+			const gchar *nextchar = g_utf8_next_char(sWord);
 			gchar *firstchar = g_utf8_strup(sWord, nextchar - sWord);
-			nextchar = g_utf8_strdown(nextchar, -1);
-			casestr = g_strdup_printf("%s%s", firstchar, nextchar);
+			//nextchar = g_utf8_strdown(nextchar, -1);
+			gchar *rest = g_utf8_strdown(nextchar, -1);
+			casestr = g_strdup_printf("%s%s", firstchar, rest);
 			g_free(firstchar);
-			g_free(nextchar);
+			g_free(rest);
 			if (strcmp(casestr, sWord)) {
 				if(oLib[iLib]->Lookup(casestr, iIndex, idx_suggest, EnableCollationLevel, servercollatefunc))
 					bFound=true;
