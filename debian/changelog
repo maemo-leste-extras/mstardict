@@ -1,4 +1,4 @@
-mstardict (0.6-6+leste1) unstable; urgency=low
+mstardict (0.6-7+leste1) unstable; urgency=low
 
   * Rebuild for Excalibur.
   * Refresh packaging for current Maemo Leste branch.
@@ -7,7 +7,7 @@ mstardict (0.6-6+leste1) unstable; urgency=low
 
 mstardict (0.6.2-1) unstable; urgency=low
   * daedalus build 
- -- Norayr Chilingarian <norayr@arnet.am>  Mon,  04 July 2025 19:31:36 +0400
+ -- Norayr Chilingarian <norayr@arnet.am>  Mon,  04 Jul 2025 19:31:36 +0400
 
 mstardict (0.6.1-5+leste1) unstable; urgency=low
   * chimaera build 
